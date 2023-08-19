@@ -1,0 +1,22 @@
+*{
+    font-family: fantasy;
+}
+
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+#first{
+    color: aqua;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.yellow{
+    color: red;
+}
+.highlight{
+    background-color: yellow;
+}
