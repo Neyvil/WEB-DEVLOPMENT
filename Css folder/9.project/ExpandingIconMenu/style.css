@@ -9,9 +9,10 @@
 
 body {
 	display: grid;
-	place-content: center;
+	place-content: right;
 	min-height: 100vh;
 	background-color: #1e1e1e;
+
 }
 
 ul {
