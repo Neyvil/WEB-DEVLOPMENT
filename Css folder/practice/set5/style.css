@@ -1,0 +1,8 @@
+div{
+    height:300px;
+    width: 500px;
+    background-image: url("I4.jpg");
+    background-size: cover;
+    position: fixed;
+    right:0px;
+}
