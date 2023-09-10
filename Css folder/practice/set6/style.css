@@ -1,0 +1,35 @@
+
+.navbar{
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: #403d39;
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color: #15616d;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+#inner{
+    height: 200px;
+    width: 200px;
+    background-color: #ff7d00;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
