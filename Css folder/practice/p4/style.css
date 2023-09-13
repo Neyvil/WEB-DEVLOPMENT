@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+    transition-property: all;
+    transition-duration: 1.5s;
+    transition-timing-function: steps;
+}
+#box2{
+    position: relative;
+    background-color: #00bbf9;
+    top: 300px;
+}
+
+#box2:hover{
+    font-size: 50px;
+    background-color:#ff006e ;
+    border-radius: 10px;
+    width: 250px;
+    height:90px;
+}
+#box2:active{
+    background-color:  #fee440;
+    text-decoration: underline;
+
+}
