@@ -1,6 +1,16 @@
 div{
-    height: 200px;
-    width: 200px;
+    height: 50px;
+    width: 50px;
     background-color: #ffbe0b;
     border: 2px solid black;
 }
+@media (width:600px){
+    div{
+        background-color: #ff006e;
+    }
+}
+ @media (max-width:600px){
+    div{
+        background-color:  #fb5607;
+    }
+ }
