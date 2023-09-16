@@ -47,3 +47,22 @@
     margin-left: 10px;
 }
 
+/*search bar*/
+
+.nav-searchbar{
+    display: flex;
+    height: 40px;
+    width: 560px;
+    background-color: #fb8500;
+    border-radius: 4px;
+    margin-left: 30px;
+}
+.searchopt{
+    border-radius: 4px;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+}
+.searchbar{
+    width: 460px;
+}
