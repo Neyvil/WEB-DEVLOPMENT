@@ -106,3 +106,56 @@
     font-weight: 700;
 }
 
+/*Panel*/
+
+.panel{
+    height: 40px;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+.panel1{
+    margin-left: 20px;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+    
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-2{
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+/* body section */
+.hero-section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.desc{
+    display: flex;
+    height: 40px;
+    color: black;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 89%;
+    margin-bottom: 25px;
+}
+.desc a{
+    text-decoration: none;
+    color: #007185;
+}
