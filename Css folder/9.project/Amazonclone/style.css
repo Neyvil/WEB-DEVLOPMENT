@@ -196,26 +196,26 @@
   font-size: 0.85rem;
 }
 
-.footpanel-2{
+.footpanel-2 {
   height: 340px;
   background-color: #232f3e;
   border-bottom: 2px solid #3a4553;
   color: #dddddd;
+  display: flex;
+  justify-content: space-evenly;
 }
-.footpanel-2 a{
+.footpanel-2 a {
   text-decoration: none;
   display: block;
   color: #dddddd;
+  font-size: 0.95rem;
+  margin-top: 15px;
 }
-.opt1 {
+.footpanel-2 p {
   margin-top: 30px;
   color: #ffffff;
-  font-size: 20px;
-  font-weight: 400;
-}
-.b p {
-  font-size: 14px;
-  margin-top: 15px;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 .bottom-navbar {
   background-color: #232f3e;
@@ -228,12 +228,25 @@
   height: 80px;
   width: 100px;
   margin-top: 15px;
-
 }
-.bottom-lang{
+.bottom-lang {
   height: 30px;
   width: 100px;
   margin-top: 17px;
-  background-color:  #232f3e;
+  background-color: #232f3e;
   color: #dddddd;
+}
+
+.panel4 {
+  height: 80px;
+  background-color: #0f1111;
+  color: white;
+  font-size: 0.7rem;
+  text-align: center;
+}
+.copyright {
+  padding-top: 5px;
+}
+.pages {
+  padding-top: 25px;
 }
