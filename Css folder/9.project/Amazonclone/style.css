@@ -58,6 +58,9 @@
     
     margin-left: 30px;
 }
+.nav-searchbar:hover{
+    border: 2px solid #fb8500;
+}
 .searchopt{
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
@@ -82,5 +85,24 @@
     font-size: 1.5rem;
     color: #0f1111;
     
+}
+
+/*GREETING*/
+
+.g-first{
+    font-size: 0.85rem;
+}
+.g-second{
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.95rem;
+    font-weight: 700;
 }
 
