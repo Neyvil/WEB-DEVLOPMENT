@@ -1,11 +1,31 @@
-div{
-    height: 100px;
-    width: 100px;
-    border: 2px solid black;
-    display: inline-block;
+*{
+    margin: 0;
 }
 
-#box1{
-    background-image: url("I4.jpg");
-    background-size: cover;
+.container{
+    background-color: #343a40;
+    padding: 20px;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit,200px);
+    grid-template-rows: repeat(auto-fit,200px);
+    grid-gap:10px;
+}
+
+/* header{
+    grid-column-start:1 ;
+    grid-column-end: 3;
+}
+aside{
+    grid-column-start: 2;
+    grid-column-end: 4;
+} */
+
+.s{
+    padding: 20px;
+    background-color: #415a77;
+    text-align: center;
+    color: #fff;
+    
 }
