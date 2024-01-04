@@ -1,0 +1,34 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body {
+    background-image: linear-gradient(to bottom, #240046, #31035a, #3e096e, #4c1084, #5a189a);
+}
+
+.card {
+    width: 700px;
+    background-image: linear-gradient(to right top, #faa307, #f28500, #e86600, #dd4200, #d00000);
+    margin: 20px;
+    padding: 20px;
+    font-family: sans-serif;
+    line-height: 28px;
+    border-radius: 10px;
+
+}
+
+/* scroll bar */
+::-webkit-scrollbar {
+    background-image: linear-gradient(to bottom, #9d4edd, #843dc0, #6b2ca3, #531b87, #3c096c);
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom, #d00000, #dd4200, #e86600, #f28500, #faa307);
+    border-radius: 100px;
+    
+}
