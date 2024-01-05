@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-image: linear-gradient(to top, #222725, #1d2222, #191c1e, #161719, #121113);
+    height: 100vh;
+}
+
+.card-container {
+    position: relative;
+    width: 320px;
+    padding: 40px;
+    overflow: hidden;
+    background: url(img1.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.card-container:before {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: calc(-100% + 5px);
+    width: 100%;
+    height: 100%;
+    background-color: #6930c3;
+    z-index: 1;
+    transition: bottom 0.5s ease; /* Smooth transition for the background */
+}
+
+.card-container:hover:before {
+    bottom: 0;
+    background-color: rgba(33, 45, 64, 0.7);
+}
+
+.content {
+    position: relative;
+    color: #000;
+    z-index: 2;
+    transform: translateY(100%);
+    transition: color 0.5s ease; /* Smooth transition for the text color */
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    opacity: 0; /* Initially hide the paragraph */
+    transition: opacity 0.5s ease; /* Smooth transition for the opacity */
+    line-height: 25px;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+a {
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    background: rgb(22, 7, 35);
+    border-radius: 20px;
+    padding: 0.6rem 1rem;
+}
+
+.card-container:hover .content {
+    transform: translateY(0);
+    color: #fff;
+}
+
+.card-container:hover p {
+    opacity: 1; /* Make the paragraph visible during hover */
+    color: #fff; /* Change text color to white during hover */
+    /* Add any other styles you want to change during hover */
+}

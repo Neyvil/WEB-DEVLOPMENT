@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: linear-gradient(to left, #14213d, #5c3365, #af3e6b, #ec604f, #fca311);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+
+.card {
+    position: relative;
+    width: 30rem;
+    height: 30rem;
+    background: white;
+    box-shadow: 0 1px 55px rgb(58,12,163);
+}
+
+.card:before,.card:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    transition: 1s;
+    z-index: -1;
+}
+
+.card:hover:before{
+    transform: rotate(20deg);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover:after{
+    transform: rotate(30deg);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+.imgbox{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: #222;
+    transition: 1s;
+    z-index: 2;
+}
+
+.card:hover .imgbox{
+    bottom: 80px;
+}
+
+
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* New */
+}
+
+.details{
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    height: 80px;
+    text-align: center;
+}
+.details h2 {
+    font-size: 30px;
+    -webkit-background-clip: text; /*IMPORTANT LESSON HERE */
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to bottom, #d00000, #dd4200, #e86600, #f28500, #faa307);
+}
