@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Border</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+
+    <h1>1.Border</h1>
+    <div class="border-2 border-blue-100 m-10">
+        <div class="w-96 m-3 p-5 border">Border All Around</div>
+        <div class="w-96 m-3 p-5 border border-4">Border width</div>
+        <div class="w-96 m-3 p-5 border border-4 border-red-500 text-center">Colored Border</div>
+        <div class="w-96 m-3 p-5 border-x-4 border-red-500 text-center">Border applied to X axies</div>
+        <div class="w-96 m-3 p-5 border-y-4 border-red-500 text-center">Border applied to Y axies</div>
+    </div>
+    <br><hr><br>
+    <h1>2.Border-Radius</h1>
+    <div class="border-2 border-green-100 m-10">
+        <div class="w-96 m-3 p-5 bg-teal-200 rounded">Border Rounded</div>
+        <div class="w-96 m-3 p-5 bg-teal-200 rounded-lg">Border Rounded</div>
+        <div class="w-96 m-3 p-5 bg-teal-200 rounded-xl">Border Rounded</div>
+        <div class="w-96 m-3 p-5 bg-teal-200 rounded-full">Border Rounded</div>
+
+        <!-- speific sides -->
+        <div class="w-96 m-3 p-5 bg-teal-200 rounded-t-xl">Border Top Rounded</div>
+        <div class="w-96 m-3 p-5 bg-teal-200 rounded-b-xl">Border Top Rounded</div>
+
+
+    </div>
+</body>
+</html>
